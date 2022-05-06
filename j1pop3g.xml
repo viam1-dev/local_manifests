@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
+    <remove-project name="CyanogenMod/android_frameworks_av">
+    <project path="frameworks/av" name="J110H-Android/android_frameworks_av" remote="github" revision="cm-11.0"/>
+    <project path="packages/apps/SamsungServiceMode" name="LineageOS/android_packages_apps_SamsungServiceMode" remote="github" revision="cm-11.0"/>
+
     <project path="kernel/samsung/j1pop3g" name="J110H-Android/android_kernel_samsung_j1pop3g" remote="github" revision="master"/>
     <project path="device/samsung/j1pop3g" name="J110H-Android/android_device_samsung_j1pop3g" remote="github" revision="cm-11.0"/>
     <project path="vendor/samsung/j1pop3g" name="J110H-Android/android_vendor_samsung_j1pop3g" remote="github" revision="cm-11.0"/>
-    <project path="packages/apps/SamsungServiceMode" name="LineageOS/android_packages_apps_SamsungServiceMode" remote="github" revision="cm-11.0"/>
 </manifest>
