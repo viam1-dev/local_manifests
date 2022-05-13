@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-    <remove-project name="CyanogenMod/android_frameworks_av"/>
+    <remove-project name="LineageOS/android_frameworks_av"/>
     <project path="frameworks/av" name="J110H-Android/android_frameworks_av" remote="github" revision="cm-11.0"/>
     <project path="packages/apps/SamsungServiceMode" name="LineageOS/android_packages_apps_SamsungServiceMode" remote="github" revision="cm-11.0"/>
     
