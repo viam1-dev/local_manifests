@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+    <project path="kernel/casper/viam1" name="viam1-dev/android_kernel_casper_viam1" remote="github" revision="master"/>
+    <project path="device/casper/viam1" name="viam1-dev/android_device_casper_viam1" remote="github" revision="lineage-15.1"/>
+    <project path="vendor/casper/viam1" name="viam1-dev/android_vendor_casper_viam1" remote="github" revision="lineage-15.1"/>
+</manifest>
